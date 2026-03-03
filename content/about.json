@@ -1,15 +1,33 @@
 {
-  "hero_tagline": "Using art as a language for change — in communities, classrooms, and everywhere life unfolds.",
-  "about_p1": "I grew up believing that wanting to live a life of meaning isn't naïve — it's a compass. That belief has taken me from the classrooms and slums of Ahmedabad, to the community halls and galleries of London, and everywhere in between.",
+  "hero_tagline": "Using art as a language for change - in communities, classrooms, and everywhere life unfolds.",
+  "about_p1": "I grew up believing that wanting to live a life of meaning isn't naïve - it's a compass. \nThat belief has taken me from the classrooms of Ahmedabad, to the community halls and galleries of London, and everywhere in between.",
   "about_p2": "My work sits at the intersection of arts and development — using creativity not as decoration, but as a genuine tool for wellbeing, education, and connection. I've coordinated programmes for elders and young people at Holborn Community Association, supported young people through art-based one-to-one sessions, taught patterning and mandala art in community workshops, and built my own small business selling handcrafted art from my studio in India.",
   "about_p3": "I hold an MSc in Development Studies from SOAS, University of London and am currently looking for my next opportunity to contribute to the social sector in the UK. If you're building something meaningful, I'd love to be part of it.",
   "photo": "",
   "pills": [
-    { "label": "Arts for Wellbeing", "colour": "green" },
-    { "label": "Community Development", "colour": "green" },
-    { "label": "Project Management", "colour": "rose" },
-    { "label": "Creative Facilitation", "colour": "rose" },
-    { "label": "MSc Development Studies", "colour": "gold" },
-    { "label": "Mandala & Patterning Art", "colour": "gold" }
+    {
+      "label": "Arts for Wellbeing",
+      "colour": "green"
+    },
+    {
+      "label": "Community Development",
+      "colour": "green"
+    },
+    {
+      "label": "Project Management",
+      "colour": "rose"
+    },
+    {
+      "label": "Creative Facilitation",
+      "colour": "rose"
+    },
+    {
+      "label": "MSc Development Studies",
+      "colour": "gold"
+    },
+    {
+      "label": "Mandala & Patterning Art",
+      "colour": "gold"
+    }
   ]
 }
