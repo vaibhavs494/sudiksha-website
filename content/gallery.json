@@ -1,0 +1,10 @@
+{
+  "items": [
+    { "title": "Mandala Series", "image": "", "description": "Intricate mandala artwork" },
+    { "title": "Patterns & Geometry", "image": "", "description": "Patterning work" },
+    { "title": "Handmade Gifts", "image": "", "description": "Handcrafted pieces" },
+    { "title": "IIM-A Murals", "image": "", "description": "Painted panels for IIM-A office space" },
+    { "title": "Ink Tales Collection", "image": "", "description": "Work from Ink Tales" },
+    { "title": "Workshop Creations", "image": "", "description": "Community workshop art" }
+  ]
+}

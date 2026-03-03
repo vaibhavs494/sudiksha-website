@@ -1,0 +1,94 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+
+  - name: "about"
+    label: "About Me"
+    files:
+      - label: "About Me"
+        name: "about"
+        file: "content/about.json"
+        format: json
+        fields:
+          - { label: "Hero Tagline", name: "hero_tagline", widget: "string", hint: "Short line shown on the homepage hero" }
+          - { label: "About Paragraph 1", name: "about_p1", widget: "text" }
+          - { label: "About Paragraph 2", name: "about_p2", widget: "text" }
+          - { label: "About Paragraph 3", name: "about_p3", widget: "text" }
+          - { label: "Profile Photo", name: "photo", widget: "image", required: false }
+          - label: "Skills / Pills"
+            name: "pills"
+            widget: "list"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Colour", name: "colour", widget: "select", options: ["green", "rose", "gold"] }
+
+  - name: "gallery"
+    label: "Art Gallery"
+    files:
+      - label: "Gallery"
+        name: "gallery"
+        file: "content/gallery.json"
+        format: json
+        fields:
+          - label: "Artworks"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Description (optional)", name: "description", widget: "string", required: false }
+
+  - name: "inspirations"
+    label: "Inspirations"
+    files:
+      - label: "Inspirations"
+        name: "inspirations"
+        file: "content/inspirations.json"
+        format: json
+        fields:
+          - label: "Quotes"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Source / Attribution", name: "source", widget: "string" }
+              - { label: "Icon (emoji)", name: "icon", widget: "string", default: "✦" }
+              - { label: "Featured (large card)", name: "featured", widget: "boolean", default: false }
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    format: json
+    identifier_field: "title"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Tag / Category", name: "tag", widget: "string", hint: "e.g. Community Arts, Reflection" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", hint: "Short preview shown on the homepage" }
+      - { label: "Cover Image", name: "cover", widget: "image", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Published Date", name: "date", widget: "datetime" }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+
+  - name: "cv"
+    label: "CV & Stats"
+    files:
+      - label: "CV"
+        name: "cv"
+        file: "content/cv.json"
+        format: json
+        fields:
+          - { label: "CV File (PDF)", name: "cv_file", widget: "file", hint: "Upload your CV as a PDF" }
+          - { label: "Stat 1 — Number", name: "stat1_num", widget: "string", default: "12+" }
+          - { label: "Stat 1 — Label", name: "stat1_label", widget: "string", default: "Programmes managed at HCA" }
+          - { label: "Stat 2 — Number", name: "stat2_num", widget: "string", default: "30+" }
+          - { label: "Stat 2 — Label", name: "stat2_label", widget: "string", default: "Young people supported through art" }
+          - { label: "Stat 3 — Number", name: "stat3_num", widget: "string", default: "3" }
+          - { label: "Stat 3 — Label", name: "stat3_label", widget: "string", default: "Community exhibitions curated" }
+          - { label: "Stat 4 — Number", name: "stat4_num", widget: "string", default: "2" }
+          - { label: "Stat 4 — Label", name: "stat4_label", widget: "string", default: "Countries, one shared belief" }

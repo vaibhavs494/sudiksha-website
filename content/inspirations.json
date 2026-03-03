@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "quote": "Art is not what you see, but what you make others see. It is the bridge between the human heart and the world it inhabits — a bridge built not with wood or steel, but with empathy, courage, and the quiet persistence of creation.",
+      "source": "Edgar Degas (adapted) · On the purpose of art",
+      "icon": "✦",
+      "featured": true
+    },
+    {
+      "quote": "The arts are not a way to make a living. They are a very human way of making life more bearable.",
+      "source": "Kurt Vonnegut",
+      "icon": "🌿",
+      "featured": false
+    },
+    {
+      "quote": "Community is the antidote to the loneliness of modernity. Art is how we remember that we were never alone.",
+      "source": "On community arts",
+      "icon": "🎨",
+      "featured": false
+    },
+    {
+      "quote": "Development is about expanding the real freedoms that people enjoy — the freedom to live the life one has reason to value.",
+      "source": "Amartya Sen · Development as Freedom",
+      "icon": "📖",
+      "featured": false
+    },
+    {
+      "quote": "In every community there is work to be done. In every nation, there are wounds to heal. In every heart there is the power to do it.",
+      "source": "Marianne Williamson",
+      "icon": "💛",
+      "featured": false
+    }
+  ]
+}
